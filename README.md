@@ -51,4 +51,8 @@ npx cypress open
 
 **Configuration**
 Cypress configuration options in cypress.json
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+  watchForFileChanges:false, //Don't run testcases automatically after save it 
 
